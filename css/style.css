@@ -1,0 +1,869 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.element-home {
+  display: flex;
+  justify-content: center;
+  background: #151515;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.element-home .overlap-wrapper {
+  width: 1280px;
+  margin: 0 auto;
+  height: 2376px;
+  position: relative;
+}
+.element-home .overlap {
+  height: 100%;
+  position: relative;
+}
+.element-home .bg-body,
+.element-home .pic,
+.element-home .overlay {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.element-home .bg-body {
+  height: 1930px;
+  top: 446px;
+}
+.element-home .pic {
+  height: 446px;
+  top: 0;
+  background: url("https://c.animaapp.com/mctb5vj7GDWop9/img/pic.png") no-repeat center/cover;
+}
+.element-home .overlay {
+  height: 102px;
+  top: 344px;
+  background: linear-gradient(180deg, rgba(13, 13, 13, 0.19), rgba(14, 14, 14, 0.8));
+}
+.element-home .overlap-group {
+  height: 446px;
+  background-color: rgba(11, 11, 11, 0.5);
+}
+.element-home .text-wrapper {
+  position: absolute;
+  top: 2336px;
+  left: 50%;
+  transform: translateX(-50%);
+  font: 400 16px "Montserrat", Helvetica;
+  color: #929292;
+  text-align: center;
+}
+.element-home .decor {
+  position: absolute;
+  width: 1050px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.element-home .decor .line,
+.element-home .decor .img,
+.element-home .decor .line-2,
+.element-home .decor .line-3 {
+  position: absolute;
+  width: 1px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.element-home .decor .line {
+  top: 0;
+  left: 0;
+  height: 742px;
+}
+.element-home .decor .img {
+  top: 958px;
+  left: 0;
+  height: 1310px;
+}
+.element-home .decor .line-2 {
+  top: 0;
+  left: 1050px;
+  height: 1267px;
+}
+.element-home .decor .line-3 {
+  top: 1483px;
+  left: 1050px;
+  height: 893px;
+}
+.element-home .evens {
+  position: absolute;
+  width: 946px;
+  height: 1760px;
+  top: 387px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.element-home .evens .event,
+.element-home .evens .event-2,
+.element-home .evens .event-3,
+.element-home .evens .event-4,
+.element-home .evens .event-5,
+.element-home .evens .event-6,
+.element-home .evens .event-7,
+.element-home .evens .event-8,
+.element-home .evens .event-9,
+.element-home .evens .event-10,
+.element-home .evens .event-11,
+.element-home .evens .event-12,
+.element-home .evens .event-13,
+.element-home .evens .event-14,
+.element-home .evens .event-15,
+.element-home .evens .event-16,
+.element-home .evens .event-17,
+.element-home .evens .event-18,
+.element-home .evens .event-19,
+.element-home .evens .event-20 {
+  position: absolute;
+  width: 198px;
+  height: 312px;
+}
+.element-home .evens .event .text-wrapper-7,
+.element-home .evens .event .text-wrapper-10,
+.element-home .evens .event .text-wrapper-13,
+.element-home .evens .event .text-wrapper-15,
+.element-home .evens .event-2 .text-wrapper-7,
+.element-home .evens .event-2 .text-wrapper-10,
+.element-home .evens .event-2 .text-wrapper-13,
+.element-home .evens .event-2 .text-wrapper-15,
+.element-home .evens .event-3 .text-wrapper-7,
+.element-home .evens .event-3 .text-wrapper-10,
+.element-home .evens .event-3 .text-wrapper-13,
+.element-home .evens .event-3 .text-wrapper-15,
+.element-home .evens .event-4 .text-wrapper-7,
+.element-home .evens .event-4 .text-wrapper-10,
+.element-home .evens .event-4 .text-wrapper-13,
+.element-home .evens .event-4 .text-wrapper-15,
+.element-home .evens .event-5 .text-wrapper-7,
+.element-home .evens .event-5 .text-wrapper-10,
+.element-home .evens .event-5 .text-wrapper-13,
+.element-home .evens .event-5 .text-wrapper-15,
+.element-home .evens .event-6 .text-wrapper-7,
+.element-home .evens .event-6 .text-wrapper-10,
+.element-home .evens .event-6 .text-wrapper-13,
+.element-home .evens .event-6 .text-wrapper-15,
+.element-home .evens .event-7 .text-wrapper-7,
+.element-home .evens .event-7 .text-wrapper-10,
+.element-home .evens .event-7 .text-wrapper-13,
+.element-home .evens .event-7 .text-wrapper-15,
+.element-home .evens .event-8 .text-wrapper-7,
+.element-home .evens .event-8 .text-wrapper-10,
+.element-home .evens .event-8 .text-wrapper-13,
+.element-home .evens .event-8 .text-wrapper-15,
+.element-home .evens .event-9 .text-wrapper-7,
+.element-home .evens .event-9 .text-wrapper-10,
+.element-home .evens .event-9 .text-wrapper-13,
+.element-home .evens .event-9 .text-wrapper-15,
+.element-home .evens .event-10 .text-wrapper-7,
+.element-home .evens .event-10 .text-wrapper-10,
+.element-home .evens .event-10 .text-wrapper-13,
+.element-home .evens .event-10 .text-wrapper-15,
+.element-home .evens .event-11 .text-wrapper-7,
+.element-home .evens .event-11 .text-wrapper-10,
+.element-home .evens .event-11 .text-wrapper-13,
+.element-home .evens .event-11 .text-wrapper-15,
+.element-home .evens .event-12 .text-wrapper-7,
+.element-home .evens .event-12 .text-wrapper-10,
+.element-home .evens .event-12 .text-wrapper-13,
+.element-home .evens .event-12 .text-wrapper-15,
+.element-home .evens .event-13 .text-wrapper-7,
+.element-home .evens .event-13 .text-wrapper-10,
+.element-home .evens .event-13 .text-wrapper-13,
+.element-home .evens .event-13 .text-wrapper-15,
+.element-home .evens .event-14 .text-wrapper-7,
+.element-home .evens .event-14 .text-wrapper-10,
+.element-home .evens .event-14 .text-wrapper-13,
+.element-home .evens .event-14 .text-wrapper-15,
+.element-home .evens .event-15 .text-wrapper-7,
+.element-home .evens .event-15 .text-wrapper-10,
+.element-home .evens .event-15 .text-wrapper-13,
+.element-home .evens .event-15 .text-wrapper-15,
+.element-home .evens .event-16 .text-wrapper-7,
+.element-home .evens .event-16 .text-wrapper-10,
+.element-home .evens .event-16 .text-wrapper-13,
+.element-home .evens .event-16 .text-wrapper-15,
+.element-home .evens .event-17 .text-wrapper-7,
+.element-home .evens .event-17 .text-wrapper-10,
+.element-home .evens .event-17 .text-wrapper-13,
+.element-home .evens .event-17 .text-wrapper-15,
+.element-home .evens .event-18 .text-wrapper-7,
+.element-home .evens .event-18 .text-wrapper-10,
+.element-home .evens .event-18 .text-wrapper-13,
+.element-home .evens .event-18 .text-wrapper-15,
+.element-home .evens .event-19 .text-wrapper-7,
+.element-home .evens .event-19 .text-wrapper-10,
+.element-home .evens .event-19 .text-wrapper-13,
+.element-home .evens .event-19 .text-wrapper-15,
+.element-home .evens .event-20 .text-wrapper-7,
+.element-home .evens .event-20 .text-wrapper-10,
+.element-home .evens .event-20 .text-wrapper-13,
+.element-home .evens .event-20 .text-wrapper-15 {
+  top: 245px;
+  position: absolute;
+  font: 700 16px "Montserrat", Helvetica;
+  color: #db56c5;
+  text-align: center;
+}
+.element-home .evens .event .text-wrapper-8,
+.element-home .evens .event .text-wrapper-11,
+.element-home .evens .event .text-wrapper-14,
+.element-home .evens .event .text-wrapper-16,
+.element-home .evens .event-2 .text-wrapper-8,
+.element-home .evens .event-2 .text-wrapper-11,
+.element-home .evens .event-2 .text-wrapper-14,
+.element-home .evens .event-2 .text-wrapper-16,
+.element-home .evens .event-3 .text-wrapper-8,
+.element-home .evens .event-3 .text-wrapper-11,
+.element-home .evens .event-3 .text-wrapper-14,
+.element-home .evens .event-3 .text-wrapper-16,
+.element-home .evens .event-4 .text-wrapper-8,
+.element-home .evens .event-4 .text-wrapper-11,
+.element-home .evens .event-4 .text-wrapper-14,
+.element-home .evens .event-4 .text-wrapper-16,
+.element-home .evens .event-5 .text-wrapper-8,
+.element-home .evens .event-5 .text-wrapper-11,
+.element-home .evens .event-5 .text-wrapper-14,
+.element-home .evens .event-5 .text-wrapper-16,
+.element-home .evens .event-6 .text-wrapper-8,
+.element-home .evens .event-6 .text-wrapper-11,
+.element-home .evens .event-6 .text-wrapper-14,
+.element-home .evens .event-6 .text-wrapper-16,
+.element-home .evens .event-7 .text-wrapper-8,
+.element-home .evens .event-7 .text-wrapper-11,
+.element-home .evens .event-7 .text-wrapper-14,
+.element-home .evens .event-7 .text-wrapper-16,
+.element-home .evens .event-8 .text-wrapper-8,
+.element-home .evens .event-8 .text-wrapper-11,
+.element-home .evens .event-8 .text-wrapper-14,
+.element-home .evens .event-8 .text-wrapper-16,
+.element-home .evens .event-9 .text-wrapper-8,
+.element-home .evens .event-9 .text-wrapper-11,
+.element-home .evens .event-9 .text-wrapper-14,
+.element-home .evens .event-9 .text-wrapper-16,
+.element-home .evens .event-10 .text-wrapper-8,
+.element-home .evens .event-10 .text-wrapper-11,
+.element-home .evens .event-10 .text-wrapper-14,
+.element-home .evens .event-10 .text-wrapper-16,
+.element-home .evens .event-11 .text-wrapper-8,
+.element-home .evens .event-11 .text-wrapper-11,
+.element-home .evens .event-11 .text-wrapper-14,
+.element-home .evens .event-11 .text-wrapper-16,
+.element-home .evens .event-12 .text-wrapper-8,
+.element-home .evens .event-12 .text-wrapper-11,
+.element-home .evens .event-12 .text-wrapper-14,
+.element-home .evens .event-12 .text-wrapper-16,
+.element-home .evens .event-13 .text-wrapper-8,
+.element-home .evens .event-13 .text-wrapper-11,
+.element-home .evens .event-13 .text-wrapper-14,
+.element-home .evens .event-13 .text-wrapper-16,
+.element-home .evens .event-14 .text-wrapper-8,
+.element-home .evens .event-14 .text-wrapper-11,
+.element-home .evens .event-14 .text-wrapper-14,
+.element-home .evens .event-14 .text-wrapper-16,
+.element-home .evens .event-15 .text-wrapper-8,
+.element-home .evens .event-15 .text-wrapper-11,
+.element-home .evens .event-15 .text-wrapper-14,
+.element-home .evens .event-15 .text-wrapper-16,
+.element-home .evens .event-16 .text-wrapper-8,
+.element-home .evens .event-16 .text-wrapper-11,
+.element-home .evens .event-16 .text-wrapper-14,
+.element-home .evens .event-16 .text-wrapper-16,
+.element-home .evens .event-17 .text-wrapper-8,
+.element-home .evens .event-17 .text-wrapper-11,
+.element-home .evens .event-17 .text-wrapper-14,
+.element-home .evens .event-17 .text-wrapper-16,
+.element-home .evens .event-18 .text-wrapper-8,
+.element-home .evens .event-18 .text-wrapper-11,
+.element-home .evens .event-18 .text-wrapper-14,
+.element-home .evens .event-18 .text-wrapper-16,
+.element-home .evens .event-19 .text-wrapper-8,
+.element-home .evens .event-19 .text-wrapper-11,
+.element-home .evens .event-19 .text-wrapper-14,
+.element-home .evens .event-19 .text-wrapper-16,
+.element-home .evens .event-20 .text-wrapper-8,
+.element-home .evens .event-20 .text-wrapper-11,
+.element-home .evens .event-20 .text-wrapper-14,
+.element-home .evens .event-20 .text-wrapper-16 {
+  top: 270px;
+  position: absolute;
+  font: 400 16px "Montserrat", Helvetica;
+  color: #fff;
+  text-align: center;
+}
+.element-home .evens .event .place,
+.element-home .evens .event .place-2,
+.element-home .evens .event .place-3,
+.element-home .evens .event .place-4,
+.element-home .evens .event-2 .place,
+.element-home .evens .event-2 .place-2,
+.element-home .evens .event-2 .place-3,
+.element-home .evens .event-2 .place-4,
+.element-home .evens .event-3 .place,
+.element-home .evens .event-3 .place-2,
+.element-home .evens .event-3 .place-3,
+.element-home .evens .event-3 .place-4,
+.element-home .evens .event-4 .place,
+.element-home .evens .event-4 .place-2,
+.element-home .evens .event-4 .place-3,
+.element-home .evens .event-4 .place-4,
+.element-home .evens .event-5 .place,
+.element-home .evens .event-5 .place-2,
+.element-home .evens .event-5 .place-3,
+.element-home .evens .event-5 .place-4,
+.element-home .evens .event-6 .place,
+.element-home .evens .event-6 .place-2,
+.element-home .evens .event-6 .place-3,
+.element-home .evens .event-6 .place-4,
+.element-home .evens .event-7 .place,
+.element-home .evens .event-7 .place-2,
+.element-home .evens .event-7 .place-3,
+.element-home .evens .event-7 .place-4,
+.element-home .evens .event-8 .place,
+.element-home .evens .event-8 .place-2,
+.element-home .evens .event-8 .place-3,
+.element-home .evens .event-8 .place-4,
+.element-home .evens .event-9 .place,
+.element-home .evens .event-9 .place-2,
+.element-home .evens .event-9 .place-3,
+.element-home .evens .event-9 .place-4,
+.element-home .evens .event-10 .place,
+.element-home .evens .event-10 .place-2,
+.element-home .evens .event-10 .place-3,
+.element-home .evens .event-10 .place-4,
+.element-home .evens .event-11 .place,
+.element-home .evens .event-11 .place-2,
+.element-home .evens .event-11 .place-3,
+.element-home .evens .event-11 .place-4,
+.element-home .evens .event-12 .place,
+.element-home .evens .event-12 .place-2,
+.element-home .evens .event-12 .place-3,
+.element-home .evens .event-12 .place-4,
+.element-home .evens .event-13 .place,
+.element-home .evens .event-13 .place-2,
+.element-home .evens .event-13 .place-3,
+.element-home .evens .event-13 .place-4,
+.element-home .evens .event-14 .place,
+.element-home .evens .event-14 .place-2,
+.element-home .evens .event-14 .place-3,
+.element-home .evens .event-14 .place-4,
+.element-home .evens .event-15 .place,
+.element-home .evens .event-15 .place-2,
+.element-home .evens .event-15 .place-3,
+.element-home .evens .event-15 .place-4,
+.element-home .evens .event-16 .place,
+.element-home .evens .event-16 .place-2,
+.element-home .evens .event-16 .place-3,
+.element-home .evens .event-16 .place-4,
+.element-home .evens .event-17 .place,
+.element-home .evens .event-17 .place-2,
+.element-home .evens .event-17 .place-3,
+.element-home .evens .event-17 .place-4,
+.element-home .evens .event-18 .place,
+.element-home .evens .event-18 .place-2,
+.element-home .evens .event-18 .place-3,
+.element-home .evens .event-18 .place-4,
+.element-home .evens .event-19 .place,
+.element-home .evens .event-19 .place-2,
+.element-home .evens .event-19 .place-3,
+.element-home .evens .event-19 .place-4,
+.element-home .evens .event-20 .place,
+.element-home .evens .event-20 .place-2,
+.element-home .evens .event-20 .place-3,
+.element-home .evens .event-20 .place-4 {
+  position: absolute;
+  top: 295px;
+  height: 17px;
+}
+.element-home .evens .event .place .vector,
+.element-home .evens .event .place-2 .vector,
+.element-home .evens .event .place-3 .vector,
+.element-home .evens .event .place-4 .vector,
+.element-home .evens .event-2 .place .vector,
+.element-home .evens .event-2 .place-2 .vector,
+.element-home .evens .event-2 .place-3 .vector,
+.element-home .evens .event-2 .place-4 .vector,
+.element-home .evens .event-3 .place .vector,
+.element-home .evens .event-3 .place-2 .vector,
+.element-home .evens .event-3 .place-3 .vector,
+.element-home .evens .event-3 .place-4 .vector,
+.element-home .evens .event-4 .place .vector,
+.element-home .evens .event-4 .place-2 .vector,
+.element-home .evens .event-4 .place-3 .vector,
+.element-home .evens .event-4 .place-4 .vector,
+.element-home .evens .event-5 .place .vector,
+.element-home .evens .event-5 .place-2 .vector,
+.element-home .evens .event-5 .place-3 .vector,
+.element-home .evens .event-5 .place-4 .vector,
+.element-home .evens .event-6 .place .vector,
+.element-home .evens .event-6 .place-2 .vector,
+.element-home .evens .event-6 .place-3 .vector,
+.element-home .evens .event-6 .place-4 .vector,
+.element-home .evens .event-7 .place .vector,
+.element-home .evens .event-7 .place-2 .vector,
+.element-home .evens .event-7 .place-3 .vector,
+.element-home .evens .event-7 .place-4 .vector,
+.element-home .evens .event-8 .place .vector,
+.element-home .evens .event-8 .place-2 .vector,
+.element-home .evens .event-8 .place-3 .vector,
+.element-home .evens .event-8 .place-4 .vector,
+.element-home .evens .event-9 .place .vector,
+.element-home .evens .event-9 .place-2 .vector,
+.element-home .evens .event-9 .place-3 .vector,
+.element-home .evens .event-9 .place-4 .vector,
+.element-home .evens .event-10 .place .vector,
+.element-home .evens .event-10 .place-2 .vector,
+.element-home .evens .event-10 .place-3 .vector,
+.element-home .evens .event-10 .place-4 .vector,
+.element-home .evens .event-11 .place .vector,
+.element-home .evens .event-11 .place-2 .vector,
+.element-home .evens .event-11 .place-3 .vector,
+.element-home .evens .event-11 .place-4 .vector,
+.element-home .evens .event-12 .place .vector,
+.element-home .evens .event-12 .place-2 .vector,
+.element-home .evens .event-12 .place-3 .vector,
+.element-home .evens .event-12 .place-4 .vector,
+.element-home .evens .event-13 .place .vector,
+.element-home .evens .event-13 .place-2 .vector,
+.element-home .evens .event-13 .place-3 .vector,
+.element-home .evens .event-13 .place-4 .vector,
+.element-home .evens .event-14 .place .vector,
+.element-home .evens .event-14 .place-2 .vector,
+.element-home .evens .event-14 .place-3 .vector,
+.element-home .evens .event-14 .place-4 .vector,
+.element-home .evens .event-15 .place .vector,
+.element-home .evens .event-15 .place-2 .vector,
+.element-home .evens .event-15 .place-3 .vector,
+.element-home .evens .event-15 .place-4 .vector,
+.element-home .evens .event-16 .place .vector,
+.element-home .evens .event-16 .place-2 .vector,
+.element-home .evens .event-16 .place-3 .vector,
+.element-home .evens .event-16 .place-4 .vector,
+.element-home .evens .event-17 .place .vector,
+.element-home .evens .event-17 .place-2 .vector,
+.element-home .evens .event-17 .place-3 .vector,
+.element-home .evens .event-17 .place-4 .vector,
+.element-home .evens .event-18 .place .vector,
+.element-home .evens .event-18 .place-2 .vector,
+.element-home .evens .event-18 .place-3 .vector,
+.element-home .evens .event-18 .place-4 .vector,
+.element-home .evens .event-19 .place .vector,
+.element-home .evens .event-19 .place-2 .vector,
+.element-home .evens .event-19 .place-3 .vector,
+.element-home .evens .event-19 .place-4 .vector,
+.element-home .evens .event-20 .place .vector,
+.element-home .evens .event-20 .place-2 .vector,
+.element-home .evens .event-20 .place-3 .vector,
+.element-home .evens .event-20 .place-4 .vector {
+  position: absolute;
+  width: 7px;
+  height: 10px;
+  top: 4px;
+  left: 0;
+}
+.element-home .evens .event .place .text-wrapper-9,
+.element-home .evens .event .place .text-wrapper-12,
+.element-home .evens .event .place-2 .text-wrapper-9,
+.element-home .evens .event .place-2 .text-wrapper-12,
+.element-home .evens .event .place-3 .text-wrapper-9,
+.element-home .evens .event .place-3 .text-wrapper-12,
+.element-home .evens .event .place-4 .text-wrapper-9,
+.element-home .evens .event .place-4 .text-wrapper-12,
+.element-home .evens .event-2 .place .text-wrapper-9,
+.element-home .evens .event-2 .place .text-wrapper-12,
+.element-home .evens .event-2 .place-2 .text-wrapper-9,
+.element-home .evens .event-2 .place-2 .text-wrapper-12,
+.element-home .evens .event-2 .place-3 .text-wrapper-9,
+.element-home .evens .event-2 .place-3 .text-wrapper-12,
+.element-home .evens .event-2 .place-4 .text-wrapper-9,
+.element-home .evens .event-2 .place-4 .text-wrapper-12,
+.element-home .evens .event-3 .place .text-wrapper-9,
+.element-home .evens .event-3 .place .text-wrapper-12,
+.element-home .evens .event-3 .place-2 .text-wrapper-9,
+.element-home .evens .event-3 .place-2 .text-wrapper-12,
+.element-home .evens .event-3 .place-3 .text-wrapper-9,
+.element-home .evens .event-3 .place-3 .text-wrapper-12,
+.element-home .evens .event-3 .place-4 .text-wrapper-9,
+.element-home .evens .event-3 .place-4 .text-wrapper-12,
+.element-home .evens .event-4 .place .text-wrapper-9,
+.element-home .evens .event-4 .place .text-wrapper-12,
+.element-home .evens .event-4 .place-2 .text-wrapper-9,
+.element-home .evens .event-4 .place-2 .text-wrapper-12,
+.element-home .evens .event-4 .place-3 .text-wrapper-9,
+.element-home .evens .event-4 .place-3 .text-wrapper-12,
+.element-home .evens .event-4 .place-4 .text-wrapper-9,
+.element-home .evens .event-4 .place-4 .text-wrapper-12,
+.element-home .evens .event-5 .place .text-wrapper-9,
+.element-home .evens .event-5 .place .text-wrapper-12,
+.element-home .evens .event-5 .place-2 .text-wrapper-9,
+.element-home .evens .event-5 .place-2 .text-wrapper-12,
+.element-home .evens .event-5 .place-3 .text-wrapper-9,
+.element-home .evens .event-5 .place-3 .text-wrapper-12,
+.element-home .evens .event-5 .place-4 .text-wrapper-9,
+.element-home .evens .event-5 .place-4 .text-wrapper-12,
+.element-home .evens .event-6 .place .text-wrapper-9,
+.element-home .evens .event-6 .place .text-wrapper-12,
+.element-home .evens .event-6 .place-2 .text-wrapper-9,
+.element-home .evens .event-6 .place-2 .text-wrapper-12,
+.element-home .evens .event-6 .place-3 .text-wrapper-9,
+.element-home .evens .event-6 .place-3 .text-wrapper-12,
+.element-home .evens .event-6 .place-4 .text-wrapper-9,
+.element-home .evens .event-6 .place-4 .text-wrapper-12,
+.element-home .evens .event-7 .place .text-wrapper-9,
+.element-home .evens .event-7 .place .text-wrapper-12,
+.element-home .evens .event-7 .place-2 .text-wrapper-9,
+.element-home .evens .event-7 .place-2 .text-wrapper-12,
+.element-home .evens .event-7 .place-3 .text-wrapper-9,
+.element-home .evens .event-7 .place-3 .text-wrapper-12,
+.element-home .evens .event-7 .place-4 .text-wrapper-9,
+.element-home .evens .event-7 .place-4 .text-wrapper-12,
+.element-home .evens .event-8 .place .text-wrapper-9,
+.element-home .evens .event-8 .place .text-wrapper-12,
+.element-home .evens .event-8 .place-2 .text-wrapper-9,
+.element-home .evens .event-8 .place-2 .text-wrapper-12,
+.element-home .evens .event-8 .place-3 .text-wrapper-9,
+.element-home .evens .event-8 .place-3 .text-wrapper-12,
+.element-home .evens .event-8 .place-4 .text-wrapper-9,
+.element-home .evens .event-8 .place-4 .text-wrapper-12,
+.element-home .evens .event-9 .place .text-wrapper-9,
+.element-home .evens .event-9 .place .text-wrapper-12,
+.element-home .evens .event-9 .place-2 .text-wrapper-9,
+.element-home .evens .event-9 .place-2 .text-wrapper-12,
+.element-home .evens .event-9 .place-3 .text-wrapper-9,
+.element-home .evens .event-9 .place-3 .text-wrapper-12,
+.element-home .evens .event-9 .place-4 .text-wrapper-9,
+.element-home .evens .event-9 .place-4 .text-wrapper-12,
+.element-home .evens .event-10 .place .text-wrapper-9,
+.element-home .evens .event-10 .place .text-wrapper-12,
+.element-home .evens .event-10 .place-2 .text-wrapper-9,
+.element-home .evens .event-10 .place-2 .text-wrapper-12,
+.element-home .evens .event-10 .place-3 .text-wrapper-9,
+.element-home .evens .event-10 .place-3 .text-wrapper-12,
+.element-home .evens .event-10 .place-4 .text-wrapper-9,
+.element-home .evens .event-10 .place-4 .text-wrapper-12,
+.element-home .evens .event-11 .place .text-wrapper-9,
+.element-home .evens .event-11 .place .text-wrapper-12,
+.element-home .evens .event-11 .place-2 .text-wrapper-9,
+.element-home .evens .event-11 .place-2 .text-wrapper-12,
+.element-home .evens .event-11 .place-3 .text-wrapper-9,
+.element-home .evens .event-11 .place-3 .text-wrapper-12,
+.element-home .evens .event-11 .place-4 .text-wrapper-9,
+.element-home .evens .event-11 .place-4 .text-wrapper-12,
+.element-home .evens .event-12 .place .text-wrapper-9,
+.element-home .evens .event-12 .place .text-wrapper-12,
+.element-home .evens .event-12 .place-2 .text-wrapper-9,
+.element-home .evens .event-12 .place-2 .text-wrapper-12,
+.element-home .evens .event-12 .place-3 .text-wrapper-9,
+.element-home .evens .event-12 .place-3 .text-wrapper-12,
+.element-home .evens .event-12 .place-4 .text-wrapper-9,
+.element-home .evens .event-12 .place-4 .text-wrapper-12,
+.element-home .evens .event-13 .place .text-wrapper-9,
+.element-home .evens .event-13 .place .text-wrapper-12,
+.element-home .evens .event-13 .place-2 .text-wrapper-9,
+.element-home .evens .event-13 .place-2 .text-wrapper-12,
+.element-home .evens .event-13 .place-3 .text-wrapper-9,
+.element-home .evens .event-13 .place-3 .text-wrapper-12,
+.element-home .evens .event-13 .place-4 .text-wrapper-9,
+.element-home .evens .event-13 .place-4 .text-wrapper-12,
+.element-home .evens .event-14 .place .text-wrapper-9,
+.element-home .evens .event-14 .place .text-wrapper-12,
+.element-home .evens .event-14 .place-2 .text-wrapper-9,
+.element-home .evens .event-14 .place-2 .text-wrapper-12,
+.element-home .evens .event-14 .place-3 .text-wrapper-9,
+.element-home .evens .event-14 .place-3 .text-wrapper-12,
+.element-home .evens .event-14 .place-4 .text-wrapper-9,
+.element-home .evens .event-14 .place-4 .text-wrapper-12,
+.element-home .evens .event-15 .place .text-wrapper-9,
+.element-home .evens .event-15 .place .text-wrapper-12,
+.element-home .evens .event-15 .place-2 .text-wrapper-9,
+.element-home .evens .event-15 .place-2 .text-wrapper-12,
+.element-home .evens .event-15 .place-3 .text-wrapper-9,
+.element-home .evens .event-15 .place-3 .text-wrapper-12,
+.element-home .evens .event-15 .place-4 .text-wrapper-9,
+.element-home .evens .event-15 .place-4 .text-wrapper-12,
+.element-home .evens .event-16 .place .text-wrapper-9,
+.element-home .evens .event-16 .place .text-wrapper-12,
+.element-home .evens .event-16 .place-2 .text-wrapper-9,
+.element-home .evens .event-16 .place-2 .text-wrapper-12,
+.element-home .evens .event-16 .place-3 .text-wrapper-9,
+.element-home .evens .event-16 .place-3 .text-wrapper-12,
+.element-home .evens .event-16 .place-4 .text-wrapper-9,
+.element-home .evens .event-16 .place-4 .text-wrapper-12,
+.element-home .evens .event-17 .place .text-wrapper-9,
+.element-home .evens .event-17 .place .text-wrapper-12,
+.element-home .evens .event-17 .place-2 .text-wrapper-9,
+.element-home .evens .event-17 .place-2 .text-wrapper-12,
+.element-home .evens .event-17 .place-3 .text-wrapper-9,
+.element-home .evens .event-17 .place-3 .text-wrapper-12,
+.element-home .evens .event-17 .place-4 .text-wrapper-9,
+.element-home .evens .event-17 .place-4 .text-wrapper-12,
+.element-home .evens .event-18 .place .text-wrapper-9,
+.element-home .evens .event-18 .place .text-wrapper-12,
+.element-home .evens .event-18 .place-2 .text-wrapper-9,
+.element-home .evens .event-18 .place-2 .text-wrapper-12,
+.element-home .evens .event-18 .place-3 .text-wrapper-9,
+.element-home .evens .event-18 .place-3 .text-wrapper-12,
+.element-home .evens .event-18 .place-4 .text-wrapper-9,
+.element-home .evens .event-18 .place-4 .text-wrapper-12,
+.element-home .evens .event-19 .place .text-wrapper-9,
+.element-home .evens .event-19 .place .text-wrapper-12,
+.element-home .evens .event-19 .place-2 .text-wrapper-9,
+.element-home .evens .event-19 .place-2 .text-wrapper-12,
+.element-home .evens .event-19 .place-3 .text-wrapper-9,
+.element-home .evens .event-19 .place-3 .text-wrapper-12,
+.element-home .evens .event-19 .place-4 .text-wrapper-9,
+.element-home .evens .event-19 .place-4 .text-wrapper-12,
+.element-home .evens .event-20 .place .text-wrapper-9,
+.element-home .evens .event-20 .place .text-wrapper-12,
+.element-home .evens .event-20 .place-2 .text-wrapper-9,
+.element-home .evens .event-20 .place-2 .text-wrapper-12,
+.element-home .evens .event-20 .place-3 .text-wrapper-9,
+.element-home .evens .event-20 .place-3 .text-wrapper-12,
+.element-home .evens .event-20 .place-4 .text-wrapper-9,
+.element-home .evens .event-20 .place-4 .text-wrapper-12 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  font: 600 14px "Montserrat", Helvetica;
+  color: #fff;
+}
+.element-home .evens .event .overlap-group-2,
+.element-home .evens .event .overlap-2,
+.element-home .evens .event-2 .overlap-group-2,
+.element-home .evens .event-2 .overlap-2,
+.element-home .evens .event-3 .overlap-group-2,
+.element-home .evens .event-3 .overlap-2,
+.element-home .evens .event-4 .overlap-group-2,
+.element-home .evens .event-4 .overlap-2,
+.element-home .evens .event-5 .overlap-group-2,
+.element-home .evens .event-5 .overlap-2,
+.element-home .evens .event-6 .overlap-group-2,
+.element-home .evens .event-6 .overlap-2,
+.element-home .evens .event-7 .overlap-group-2,
+.element-home .evens .event-7 .overlap-2,
+.element-home .evens .event-8 .overlap-group-2,
+.element-home .evens .event-8 .overlap-2,
+.element-home .evens .event-9 .overlap-group-2,
+.element-home .evens .event-9 .overlap-2,
+.element-home .evens .event-10 .overlap-group-2,
+.element-home .evens .event-10 .overlap-2,
+.element-home .evens .event-11 .overlap-group-2,
+.element-home .evens .event-11 .overlap-2,
+.element-home .evens .event-12 .overlap-group-2,
+.element-home .evens .event-12 .overlap-2,
+.element-home .evens .event-13 .overlap-group-2,
+.element-home .evens .event-13 .overlap-2,
+.element-home .evens .event-14 .overlap-group-2,
+.element-home .evens .event-14 .overlap-2,
+.element-home .evens .event-15 .overlap-group-2,
+.element-home .evens .event-15 .overlap-2,
+.element-home .evens .event-16 .overlap-group-2,
+.element-home .evens .event-16 .overlap-2,
+.element-home .evens .event-17 .overlap-group-2,
+.element-home .evens .event-17 .overlap-2,
+.element-home .evens .event-18 .overlap-group-2,
+.element-home .evens .event-18 .overlap-2,
+.element-home .evens .event-19 .overlap-group-2,
+.element-home .evens .event-19 .overlap-2,
+.element-home .evens .event-20 .overlap-group-2,
+.element-home .evens .event-20 .overlap-2 {
+  position: absolute;
+  width: 194px;
+  height: 240px;
+}
+.element-home .evens .event .overlap-group-2 .rectangle-2,
+.element-home .evens .event .overlap-2 .rectangle-2,
+.element-home .evens .event-2 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-2 .overlap-2 .rectangle-2,
+.element-home .evens .event-3 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-3 .overlap-2 .rectangle-2,
+.element-home .evens .event-4 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-4 .overlap-2 .rectangle-2,
+.element-home .evens .event-5 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-5 .overlap-2 .rectangle-2,
+.element-home .evens .event-6 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-6 .overlap-2 .rectangle-2,
+.element-home .evens .event-7 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-7 .overlap-2 .rectangle-2,
+.element-home .evens .event-8 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-8 .overlap-2 .rectangle-2,
+.element-home .evens .event-9 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-9 .overlap-2 .rectangle-2,
+.element-home .evens .event-10 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-10 .overlap-2 .rectangle-2,
+.element-home .evens .event-11 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-11 .overlap-2 .rectangle-2,
+.element-home .evens .event-12 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-12 .overlap-2 .rectangle-2,
+.element-home .evens .event-13 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-13 .overlap-2 .rectangle-2,
+.element-home .evens .event-14 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-14 .overlap-2 .rectangle-2,
+.element-home .evens .event-15 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-15 .overlap-2 .rectangle-2,
+.element-home .evens .event-16 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-16 .overlap-2 .rectangle-2,
+.element-home .evens .event-17 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-17 .overlap-2 .rectangle-2,
+.element-home .evens .event-18 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-18 .overlap-2 .rectangle-2,
+.element-home .evens .event-19 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-19 .overlap-2 .rectangle-2,
+.element-home .evens .event-20 .overlap-group-2 .rectangle-2,
+.element-home .evens .event-20 .overlap-2 .rectangle-2 {
+  width: 180px;
+  height: 227px;
+  top: 13px;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+}
+.element-home .evens .event .overlap-group-2 .rectangle-3,
+.element-home .evens .event .overlap-2 .rectangle-3,
+.element-home .evens .event-2 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-2 .overlap-2 .rectangle-3,
+.element-home .evens .event-3 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-3 .overlap-2 .rectangle-3,
+.element-home .evens .event-4 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-4 .overlap-2 .rectangle-3,
+.element-home .evens .event-5 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-5 .overlap-2 .rectangle-3,
+.element-home .evens .event-6 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-6 .overlap-2 .rectangle-3,
+.element-home .evens .event-7 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-7 .overlap-2 .rectangle-3,
+.element-home .evens .event-8 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-8 .overlap-2 .rectangle-3,
+.element-home .evens .event-9 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-9 .overlap-2 .rectangle-3,
+.element-home .evens .event-10 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-10 .overlap-2 .rectangle-3,
+.element-home .evens .event-11 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-11 .overlap-2 .rectangle-3,
+.element-home .evens .event-12 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-12 .overlap-2 .rectangle-3,
+.element-home .evens .event-13 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-13 .overlap-2 .rectangle-3,
+.element-home .evens .event-14 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-14 .overlap-2 .rectangle-3,
+.element-home .evens .event-15 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-15 .overlap-2 .rectangle-3,
+.element-home .evens .event-16 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-16 .overlap-2 .rectangle-3,
+.element-home .evens .event-17 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-17 .overlap-2 .rectangle-3,
+.element-home .evens .event-18 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-18 .overlap-2 .rectangle-3,
+.element-home .evens .event-19 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-19 .overlap-2 .rectangle-3,
+.element-home .evens .event-20 .overlap-group-2 .rectangle-3,
+.element-home .evens .event-20 .overlap-2 .rectangle-3 {
+  width: 153px;
+  height: 143px;
+  top: 0;
+  left: 41px;
+  position: absolute;
+  border-radius: 50px 0 50px 0;
+  border: 1px solid rgba(219, 86, 197, 0.3);
+}
+.element-home .search-field,
+.element-home .select {
+  position: absolute;
+  width: 272px;
+  height: 40px;
+  top: 214px;
+}
+.element-home .search-field .overlap-3,
+.element-home .select .overlap-3 {
+  width: 270px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px) brightness(100%);
+          backdrop-filter: blur(10px) brightness(100%);
+}
+.element-home .search-field .text-wrapper-17,
+.element-home .select .text-wrapper-17 {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font: 400 16px "Montserrat", Helvetica;
+  color: #929292;
+}
+.element-home .search-field .search-icon,
+.element-home .select .search-icon {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 14px;
+  left: 228px;
+  transform: rotate(180deg);
+}
+.element-home .search-field .search-icon .group,
+.element-home .select .search-icon .group {
+  width: 12px;
+  height: 12px;
+  transform: rotate(-180deg);
+}
+.element-home .search-field {
+  left: 355px;
+}
+.element-home .select {
+  left: 655px;
+}
+.element-home .FIND-BEST-EVENTS {
+  position: absolute;
+  top: 39px;
+  left: 345px;
+  font: 900 50px "Montserrat", Helvetica;
+  text-align: center;
+  color: #db56c5;
+}
+.element-home .logo {
+  position: absolute;
+  width: 239px;
+  height: 201px;
+  top: 0;
+  left: 0;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 56px;
+  padding-left: 167px;
+  padding-right: 167px;
+  margin-top: 387px;
+}
+.events-grid .event {
+  width: 196;
+  height: 312;
+  top: 387px;
+  left: 173px;
+  opacity: 1;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.events-grid .event img {
+  width: 180px;
+  height: 227px;
+  top: 400px;
+  left: 175px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.events-grid .event .title {
+  font-weight: bold;
+  margin-top: 8px;
+}
+.events-grid .event .date, .events-grid .event .venue {
+  font-size: 14px;
+  color: #aaa;
+}
