@@ -867,3 +867,201 @@ html, body {
   font-size: 14px;
   color: #aaa;
 }
+
+#pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 12px;
+  margin-top: 40px;
+}
+
+#pagination button {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  padding: 6px 12px;
+  border-radius: 10px 0px 10px 0px;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#pagination button.active {
+  border: 1px solid #DC56C5;
+}
+
+.title {
+  color: #DC56C5;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.date {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.venue {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+#pagination button {
+  background: none;
+  border: 1px solid #fff;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#pagination button.active {
+  background-color: #a445ed;
+  border-color: #a445ed;
+}
+
+.hero {
+  height: 400px;
+}
+
+.bg-body {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.FIND-BEST-EVENTS {
+  font-size: 40px;
+  font-weight: bold;
+  color: #DC56C5;
+  margin-bottom: 20px;
+}
+
+.search-controls {
+  margin-top: 52px;
+}
+
+#search {
+  padding: 10px 30px;
+  width: 270px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: #939393;
+  font-size: 16px;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+}
+
+#search::-moz-placeholder {
+  color: #bfbfbf;
+}
+
+#search::placeholder {
+  color: #bfbfbf;
+}
+
+.search-controls {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.search-controls input,
+.search-controls select {
+  padding: 10px 30px;
+  width: 270px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  color: #c4c4c4;
+}
+.search-controls input::-moz-placeholder {
+  color: #ccc;
+}
+.search-controls input::placeholder {
+  color: #ccc;
+}
+.search-controls select {
+  min-width: 160px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg fill='white' height='14' viewBox='0 0 24 24' width='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 18px;
+  padding-right: 40px;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.modal.hidden {
+  display: none;
+}
+.modal .modal-content {
+  background: #1e1e1e;
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 90%;
+  position: relative;
+  text-align: left;
+}
+.modal .modal-content .close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}

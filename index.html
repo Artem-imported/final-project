@@ -10,7 +10,22 @@
     <div class="element-home">
         <div class="overlap-wrapper">
             <div class="overlap">
-                <img class="bg-body" src="./img/bg.png" />
+                <div class="hero">
+                    <img class="bg-body" src="./img/bg.png" />
+                    <div class="hero-content">
+                        <div class="search-controls">
+                            <input type="text" id="search" placeholder="Start searching">
+
+                            <select id="country">
+                                <option value="">All countries</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">...</option>
+                            </select>
+                        </div>
+                        <p class="FIND-BEST-EVENTS">FIND BEST EVENTS<br />AROUND THE WORLD</p>
+                    </div>
+                </div>
                 <p class="text-wrapper">© 2021 | All Rights Reserved | Developed with ♥ by GoIT Students</p>
                 <div class="pic">
                     <div class="overlap-group">
@@ -26,15 +41,16 @@
                 <img class="line-3" src="https://c.animaapp.com/mctb5vj7GDWop9/img/line-2.svg" />
             </div>
             <div class="pagination">
-                <div class="element">
-                    <div class="div">
-                        <div class="text-wrapper-2">1</div>
-                        <div class="rectangle"></div>
-                    </div>
-                </div>
+                <div id="events-container" class="events-container"></div>
+                <div class="pagination" id="pagination"></div>
             </div>
-            <p class="FIND-BEST-EVENTS">FIND BEST EVENTS<br />AROUND THE WORLD</p>
             <img class="logo" src="./img/logo.png" />
+        </div>
+    </div>
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-details"></div>
         </div>
     </div>
     <script src="./script.js"></script>
