@@ -923,20 +923,6 @@ html, body {
   margin-top: 20px;
 }
 
-#pagination button {
-  background: none;
-  border: 1px solid #fff;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-#pagination button.active {
-  background-color: #a445ed;
-  border-color: #a445ed;
-}
-
 .hero {
   height: 400px;
 }
@@ -1038,30 +1024,79 @@ html, body {
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(32, 13, 29, 0.6);
+  z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999;
 }
 .modal.hidden {
   display: none;
 }
 .modal .modal-content {
-  background: #1e1e1e;
-  color: white;
-  padding: 30px;
-  border-radius: 16px;
-  max-width: 600px;
-  width: 90%;
   position: relative;
-  text-align: left;
+  background: #FFF2FD;
+  border-radius: 300px 0 300px 0;
+  padding: 30px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  opacity: 1;
 }
 .modal .modal-content .close {
   position: absolute;
-  top: 12px;
-  right: 16px;
+  top: 20px;
+  right: 30px;
   font-size: 28px;
-  color: #fff;
+  background: none;
+  border: none;
   cursor: pointer;
+}
+.modal .modal-content .modal-body {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.modal .modal-content .modal-body .modal-left img {
+  margin-top: 190px;
+  width: 320px;
+  height: 550px;
+  opacity: 1;
+}
+.modal .modal-content .modal-body .modal-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.modal .modal-content .modal-body .modal-right .modal-title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  color: #DC56C5;
+}
+.modal .modal-content .modal-body .modal-right .btn {
+  background: #4c00ff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.modal .modal-content .modal-body .modal-right .btn.secondary {
+  background: transparent;
+  border: 1px solid #4c00fe;
+  color: #4c00fe;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 255px;
 }

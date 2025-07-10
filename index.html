@@ -49,10 +49,47 @@
     </div>
     <div id="modal" class="modal hidden">
         <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="modal-details"></div>
+            <button class="close">&times;</button>
+
+            <div class="modal-body">
+                <div class="modal-left">
+                    <img id="modal-image" src="" alt="Event image">
+                </div>
+                <div class="modal-right">
+                    <div class="modal-section">
+                        <h3 class="modal-title">INFO</h3>
+                        <p id="modal-info"></p>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-title">WHEN</h3>
+                        <p id="modal-date"></p>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-title">WHERE</h3>
+                        <p id="modal-where"></p>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-title">WHO</h3>
+                        <p id="modal-who"></p>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3 class="modal-title">PRICES</h3>
+                        <p id="modal-price1">🎫 Standart 300–500 UAH</p>
+                        <a class="btn" id="modal-buy1" href="#">BUY TICKETS</a>
+                        <p id="modal-price2">🎫 VIP 1000–1500 UAH</p>
+                        <a class="btn" id="modal-buy2" href="#">BUY TICKETS</a>
+                    </div>
+
+                    <a id="modal-author" class="btn secondary">MORE FROM THIS AUTHOR</a>
+                </div>
+            </div>
         </div>
     </div>
+
     <script src="./script.js"></script>
 </body>
 </html>
