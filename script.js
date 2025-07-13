@@ -124,8 +124,6 @@ function showModal(data) {
   modal.classList.remove('hidden');
 }
 
-
-
 document.querySelector('.modal .close').addEventListener('click', () => {
   modal.classList.add('hidden');
 });
@@ -152,3 +150,62 @@ async function update() {
 }
 
 update();
+
+//
+
+async function getVenues() {
+  const events = await fetchEvents(currentPage);
+  const venueSet = new Set();
+
+  events.forEach(ev => {
+    const venue = ev._embedded?.venues?.[0]?.name;
+    if (venue) venueSet.add(venue); // Убираем повторы автоматически
+  });
+
+  return Array.from(venueSet);
+}
+async function populateVenueSelect() {
+  const venueSet = new Set();
+
+  allEvents.forEach(ev => {
+    const venue = ev._embedded?.venues?.[0]?.name;
+    if (venue) venueSet.add(venue);
+  });
+
+  const select = document.getElementById('country');
+  select.innerHTML = `<option value="">All venues</option>`;
+
+  Array.from(venueSet).forEach(venue => {
+    const option = document.createElement('option');
+    option.value = venue;
+    option.textContent = venue;
+    select.appendChild(option);
+  });
+}
+
+async function update() {
+  const events = await fetchEvents(currentPage);
+  allEvents = events;
+  renderEvents(events);
+  renderPagination(20);
+  await populateVenueSelect(); // 👈 добавил
+}
+document.getElementById('country').addEventListener('change', (event) => {
+  const selectedVenue = event.target.value;
+  if (!selectedVenue) {
+    renderEvents(allEvents); // Показать все
+    return;
+  }
+
+  const filtered = allEvents.filter(ev =>
+    ev._embedded?.venues?.[0]?.name === selectedVenue
+  );
+  renderEvents(filtered);
+});
+async function update() {
+  const events = await fetchEvents(currentPage);
+  allEvents = events;
+  renderEvents(events);
+  renderPagination(20);
+  populateVenueSelect(); // 👈 добавлено
+}
