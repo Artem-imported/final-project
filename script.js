@@ -153,29 +153,20 @@ update();
 
 //
 
-async function getVenues() {
+async function update() {
   const events = await fetchEvents(currentPage);
-  const venueSet = new Set();
-
-  events.forEach(ev => {
-    const venue = ev._embedded?.venues?.[0]?.name;
-    if (venue) venueSet.add(venue); // Убираем повторы автоматически
-  });
-
-  return Array.from(venueSet);
+  allEvents = events;
+  renderEvents(events);
+  renderPagination(20);
+  populateVenueSelect(events);
 }
-async function populateVenueSelect() {
-  const venueSet = new Set();
 
-  allEvents.forEach(ev => {
-    const venue = ev._embedded?.venues?.[0]?.name;
-    if (venue) venueSet.add(venue);
-  });
-
+function populateVenueSelect(events) {
   const select = document.getElementById('country');
-  select.innerHTML = `<option value="">All venues</option>`;
+  const venues = [...new Set(events.map(ev => ev._embedded?.venues?.[0]?.name).filter(Boolean))];
 
-  Array.from(venueSet).forEach(venue => {
+  select.innerHTML = `<option value="">All venues</option>`;
+  venues.forEach(venue => {
     const option = document.createElement('option');
     option.value = venue;
     option.textContent = venue;
@@ -183,29 +174,12 @@ async function populateVenueSelect() {
   });
 }
 
-async function update() {
-  const events = await fetchEvents(currentPage);
-  allEvents = events;
-  renderEvents(events);
-  renderPagination(20);
-  await populateVenueSelect(); // 👈 добавил
-}
-document.getElementById('country').addEventListener('change', (event) => {
-  const selectedVenue = event.target.value;
-  if (!selectedVenue) {
-    renderEvents(allEvents); // Показать все
-    return;
-  }
+document.getElementById('country').addEventListener('change', e => {
+  const selected = e.target.value;
+  if (!selected) return renderEvents(allEvents);
 
   const filtered = allEvents.filter(ev =>
-    ev._embedded?.venues?.[0]?.name === selectedVenue
+    ev._embedded?.venues?.[0]?.name === selected
   );
   renderEvents(filtered);
 });
-async function update() {
-  const events = await fetchEvents(currentPage);
-  allEvents = events;
-  renderEvents(events);
-  renderPagination(20);
-  populateVenueSelect(); // 👈 добавлено
-}
