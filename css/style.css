@@ -1,3 +1,8 @@
+@media (max-width: 1300px) {
+  .FIND-BEST-EVENTS {
+    font-size: 40px !important;
+  }
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -18,11 +23,6 @@ html, body {
   margin: 0 auto;
   height: 2376px;
   position: relative;
-}
-@media (max-width: 768px) {
-  .element-home .overlap-wrapper {
-    width: 768px;
-  }
 }
 .element-home .overlap {
   height: 100%;
@@ -77,58 +77,6 @@ html, body {
   width: 1px;
   -o-object-fit: cover;
      object-fit: cover;
-}
-.element-home .decor .line {
-  top: 0;
-  left: 0;
-  height: 742px;
-}
-.element-home .decor .img {
-  top: 958px;
-  left: 0;
-  height: 1310px;
-}
-.element-home .decor .line-2 {
-  top: 0;
-  left: 1050px;
-  height: 1267px;
-}
-.element-home .decor .line-3 {
-  top: 1483px;
-  left: 1050px;
-  height: 893px;
-}
-.element-home .evens {
-  position: absolute;
-  width: 946px;
-  height: 1760px;
-  top: 387px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.element-home .evens .event,
-.element-home .evens .event-2,
-.element-home .evens .event-3,
-.element-home .evens .event-4,
-.element-home .evens .event-5,
-.element-home .evens .event-6,
-.element-home .evens .event-7,
-.element-home .evens .event-8,
-.element-home .evens .event-9,
-.element-home .evens .event-10,
-.element-home .evens .event-11,
-.element-home .evens .event-12,
-.element-home .evens .event-13,
-.element-home .evens .event-14,
-.element-home .evens .event-15,
-.element-home .evens .event-16,
-.element-home .evens .event-17,
-.element-home .evens .event-18,
-.element-home .evens .event-19,
-.element-home .evens .event-20 {
-  position: absolute;
-  width: 198px;
-  height: 312px;
 }
 .element-home .evens .event .text-wrapper-7,
 .element-home .evens .event .text-wrapper-10,
@@ -210,7 +158,6 @@ html, body {
 .element-home .evens .event-20 .text-wrapper-10,
 .element-home .evens .event-20 .text-wrapper-13,
 .element-home .evens .event-20 .text-wrapper-15 {
-  top: 245px;
   position: absolute;
   font: 700 16px "Montserrat", Helvetica;
   color: #db56c5;
@@ -301,176 +248,6 @@ html, body {
   font: 400 16px "Montserrat", Helvetica;
   color: #fff;
   text-align: center;
-}
-.element-home .evens .event .place,
-.element-home .evens .event .place-2,
-.element-home .evens .event .place-3,
-.element-home .evens .event .place-4,
-.element-home .evens .event-2 .place,
-.element-home .evens .event-2 .place-2,
-.element-home .evens .event-2 .place-3,
-.element-home .evens .event-2 .place-4,
-.element-home .evens .event-3 .place,
-.element-home .evens .event-3 .place-2,
-.element-home .evens .event-3 .place-3,
-.element-home .evens .event-3 .place-4,
-.element-home .evens .event-4 .place,
-.element-home .evens .event-4 .place-2,
-.element-home .evens .event-4 .place-3,
-.element-home .evens .event-4 .place-4,
-.element-home .evens .event-5 .place,
-.element-home .evens .event-5 .place-2,
-.element-home .evens .event-5 .place-3,
-.element-home .evens .event-5 .place-4,
-.element-home .evens .event-6 .place,
-.element-home .evens .event-6 .place-2,
-.element-home .evens .event-6 .place-3,
-.element-home .evens .event-6 .place-4,
-.element-home .evens .event-7 .place,
-.element-home .evens .event-7 .place-2,
-.element-home .evens .event-7 .place-3,
-.element-home .evens .event-7 .place-4,
-.element-home .evens .event-8 .place,
-.element-home .evens .event-8 .place-2,
-.element-home .evens .event-8 .place-3,
-.element-home .evens .event-8 .place-4,
-.element-home .evens .event-9 .place,
-.element-home .evens .event-9 .place-2,
-.element-home .evens .event-9 .place-3,
-.element-home .evens .event-9 .place-4,
-.element-home .evens .event-10 .place,
-.element-home .evens .event-10 .place-2,
-.element-home .evens .event-10 .place-3,
-.element-home .evens .event-10 .place-4,
-.element-home .evens .event-11 .place,
-.element-home .evens .event-11 .place-2,
-.element-home .evens .event-11 .place-3,
-.element-home .evens .event-11 .place-4,
-.element-home .evens .event-12 .place,
-.element-home .evens .event-12 .place-2,
-.element-home .evens .event-12 .place-3,
-.element-home .evens .event-12 .place-4,
-.element-home .evens .event-13 .place,
-.element-home .evens .event-13 .place-2,
-.element-home .evens .event-13 .place-3,
-.element-home .evens .event-13 .place-4,
-.element-home .evens .event-14 .place,
-.element-home .evens .event-14 .place-2,
-.element-home .evens .event-14 .place-3,
-.element-home .evens .event-14 .place-4,
-.element-home .evens .event-15 .place,
-.element-home .evens .event-15 .place-2,
-.element-home .evens .event-15 .place-3,
-.element-home .evens .event-15 .place-4,
-.element-home .evens .event-16 .place,
-.element-home .evens .event-16 .place-2,
-.element-home .evens .event-16 .place-3,
-.element-home .evens .event-16 .place-4,
-.element-home .evens .event-17 .place,
-.element-home .evens .event-17 .place-2,
-.element-home .evens .event-17 .place-3,
-.element-home .evens .event-17 .place-4,
-.element-home .evens .event-18 .place,
-.element-home .evens .event-18 .place-2,
-.element-home .evens .event-18 .place-3,
-.element-home .evens .event-18 .place-4,
-.element-home .evens .event-19 .place,
-.element-home .evens .event-19 .place-2,
-.element-home .evens .event-19 .place-3,
-.element-home .evens .event-19 .place-4,
-.element-home .evens .event-20 .place,
-.element-home .evens .event-20 .place-2,
-.element-home .evens .event-20 .place-3,
-.element-home .evens .event-20 .place-4 {
-  position: absolute;
-  top: 295px;
-  height: 17px;
-}
-.element-home .evens .event .place .vector,
-.element-home .evens .event .place-2 .vector,
-.element-home .evens .event .place-3 .vector,
-.element-home .evens .event .place-4 .vector,
-.element-home .evens .event-2 .place .vector,
-.element-home .evens .event-2 .place-2 .vector,
-.element-home .evens .event-2 .place-3 .vector,
-.element-home .evens .event-2 .place-4 .vector,
-.element-home .evens .event-3 .place .vector,
-.element-home .evens .event-3 .place-2 .vector,
-.element-home .evens .event-3 .place-3 .vector,
-.element-home .evens .event-3 .place-4 .vector,
-.element-home .evens .event-4 .place .vector,
-.element-home .evens .event-4 .place-2 .vector,
-.element-home .evens .event-4 .place-3 .vector,
-.element-home .evens .event-4 .place-4 .vector,
-.element-home .evens .event-5 .place .vector,
-.element-home .evens .event-5 .place-2 .vector,
-.element-home .evens .event-5 .place-3 .vector,
-.element-home .evens .event-5 .place-4 .vector,
-.element-home .evens .event-6 .place .vector,
-.element-home .evens .event-6 .place-2 .vector,
-.element-home .evens .event-6 .place-3 .vector,
-.element-home .evens .event-6 .place-4 .vector,
-.element-home .evens .event-7 .place .vector,
-.element-home .evens .event-7 .place-2 .vector,
-.element-home .evens .event-7 .place-3 .vector,
-.element-home .evens .event-7 .place-4 .vector,
-.element-home .evens .event-8 .place .vector,
-.element-home .evens .event-8 .place-2 .vector,
-.element-home .evens .event-8 .place-3 .vector,
-.element-home .evens .event-8 .place-4 .vector,
-.element-home .evens .event-9 .place .vector,
-.element-home .evens .event-9 .place-2 .vector,
-.element-home .evens .event-9 .place-3 .vector,
-.element-home .evens .event-9 .place-4 .vector,
-.element-home .evens .event-10 .place .vector,
-.element-home .evens .event-10 .place-2 .vector,
-.element-home .evens .event-10 .place-3 .vector,
-.element-home .evens .event-10 .place-4 .vector,
-.element-home .evens .event-11 .place .vector,
-.element-home .evens .event-11 .place-2 .vector,
-.element-home .evens .event-11 .place-3 .vector,
-.element-home .evens .event-11 .place-4 .vector,
-.element-home .evens .event-12 .place .vector,
-.element-home .evens .event-12 .place-2 .vector,
-.element-home .evens .event-12 .place-3 .vector,
-.element-home .evens .event-12 .place-4 .vector,
-.element-home .evens .event-13 .place .vector,
-.element-home .evens .event-13 .place-2 .vector,
-.element-home .evens .event-13 .place-3 .vector,
-.element-home .evens .event-13 .place-4 .vector,
-.element-home .evens .event-14 .place .vector,
-.element-home .evens .event-14 .place-2 .vector,
-.element-home .evens .event-14 .place-3 .vector,
-.element-home .evens .event-14 .place-4 .vector,
-.element-home .evens .event-15 .place .vector,
-.element-home .evens .event-15 .place-2 .vector,
-.element-home .evens .event-15 .place-3 .vector,
-.element-home .evens .event-15 .place-4 .vector,
-.element-home .evens .event-16 .place .vector,
-.element-home .evens .event-16 .place-2 .vector,
-.element-home .evens .event-16 .place-3 .vector,
-.element-home .evens .event-16 .place-4 .vector,
-.element-home .evens .event-17 .place .vector,
-.element-home .evens .event-17 .place-2 .vector,
-.element-home .evens .event-17 .place-3 .vector,
-.element-home .evens .event-17 .place-4 .vector,
-.element-home .evens .event-18 .place .vector,
-.element-home .evens .event-18 .place-2 .vector,
-.element-home .evens .event-18 .place-3 .vector,
-.element-home .evens .event-18 .place-4 .vector,
-.element-home .evens .event-19 .place .vector,
-.element-home .evens .event-19 .place-2 .vector,
-.element-home .evens .event-19 .place-3 .vector,
-.element-home .evens .event-19 .place-4 .vector,
-.element-home .evens .event-20 .place .vector,
-.element-home .evens .event-20 .place-2 .vector,
-.element-home .evens .event-20 .place-3 .vector,
-.element-home .evens .event-20 .place-4 .vector {
-  position: absolute;
-  width: 7px;
-  height: 10px;
-  top: 4px;
-  left: 0;
 }
 .element-home .evens .event .place .text-wrapper-9,
 .element-home .evens .event .place .text-wrapper-12,
@@ -632,9 +409,6 @@ html, body {
 .element-home .evens .event-20 .place-3 .text-wrapper-12,
 .element-home .evens .event-20 .place-4 .text-wrapper-9,
 .element-home .evens .event-20 .place-4 .text-wrapper-12 {
-  position: absolute;
-  top: 0;
-  left: 10px;
   font: 600 14px "Montserrat", Helvetica;
   color: #fff;
 }
@@ -817,16 +591,7 @@ html, body {
   height: 12px;
   transform: rotate(-180deg);
 }
-.element-home .search-field {
-  left: 355px;
-}
-.element-home .select {
-  left: 655px;
-}
 .element-home .FIND-BEST-EVENTS {
-  position: absolute;
-  top: 39px;
-  left: 345px;
   font: 900 50px "Montserrat", Helvetica;
   text-align: center;
   color: #db56c5;
@@ -841,26 +606,21 @@ html, body {
 
 .events-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  justify-content: center;
   gap: 56px;
-  padding-left: 167px;
-  padding-right: 167px;
   margin-top: 387px;
+  margin-right: -65px;
 }
 .events-grid .event {
-  width: 196;
-  height: 312;
-  top: 387px;
-  left: 173px;
-  opacity: 1;
+  width: 196px;
+  height: 312px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
 .events-grid .event img {
   width: 180px;
   height: 227px;
-  top: 400px;
-  left: 175px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }

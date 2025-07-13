@@ -115,8 +115,7 @@ function showModal(data) {
   buy1.href = data.url;
   buy2.href = data.url;
   author.href = data.url;
-
-  // Стили (если надо оставить)
+  
   [infoEl, dateEl, whereEl, whoEl].forEach(el => {
     el.style.fontFamily = 'Montserrat';
     el.style.fontSize = '16px';

@@ -1,3 +1,5 @@
+@import "adaptive";
+
 html, body {
     margin: 0;
     padding: 0;
@@ -17,9 +19,6 @@ html, body {
         margin: 0 auto;
         height: 2376px;
         position: relative;
-        @media (max-width: 768px) {
-            width: 768px;
-        }
     }
 
     .overlap {
@@ -82,20 +81,9 @@ html, body {
             width: 1px;
             object-fit: cover;
         }
-
-        .line { top: 0; left: 0; height: 742px; }
-        .img { top: 958px; left: 0; height: 1310px; }
-        .line-2 { top: 0; left: 1050px; height: 1267px; }
-        .line-3 { top: 1483px; left: 1050px; height: 893px; }
     }
 
     .evens {
-        position: absolute;
-        width: 946px;
-        height: 1760px;
-        top: 387px;
-        left: 50%;
-        transform: translateX(-50%);
 
         .event,
         .event-2,
@@ -117,15 +105,11 @@ html, body {
         .event-18,
         .event-19,
         .event-20 {
-            position: absolute;
-            width: 198px;
-            height: 312px;
 
         .text-wrapper-7,
         .text-wrapper-10,
         .text-wrapper-13,
         .text-wrapper-15 {
-            top: 245px;
             position: absolute;
             font: 700 16px "Montserrat", Helvetica;
             color: #db56c5;
@@ -147,23 +131,10 @@ html, body {
         .place-2,
         .place-3,
         .place-4 {
-            position: absolute;
-            top: 295px;
-            height: 17px;
 
-            .vector {
-                position: absolute;
-                width: 7px;
-                height: 10px;
-                top: 4px;
-                left: 0;
-            }
 
             .text-wrapper-9,
             .text-wrapper-12 {
-                position: absolute;
-                top: 0;
-                left: 10px;
                 font: 600 14px "Montserrat", Helvetica;
                 color: #fff;
             }
@@ -236,13 +207,7 @@ html, body {
         }
     }
 
-    .search-field { left: 355px; }
-    .select { left: 655px; }
-
     .FIND-BEST-EVENTS {
-        position: absolute;
-        top: 39px;
-        left: 345px;
         font: 900 50px "Montserrat", Helvetica;
         text-align: center;
         color: #db56c5;
@@ -258,27 +223,25 @@ html, body {
 }
 
 .events-grid {
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    // gap: 56px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    justify-content: center;
     gap: 56px;
-    padding-left: 167px;
-    padding-right: 167px;
     margin-top: 387px;
+    margin-right: -65px;
 
     .event {
-        width: 196;
-        height: 312;
-        top: 387px;
-        left: 173px;
-        opacity: 1;
+        width: 196px;
+        height: 312px;
         border-top-left-radius: 50px;
         border-bottom-right-radius: 50px;
 
         img {
             width: 180px;
             height: 227px;
-            top: 400px;
-            left: 175px;
             border-top-left-radius: 50px;
             border-bottom-right-radius: 50px;
         }
