@@ -2,6 +2,38 @@
   .FIND-BEST-EVENTS {
     font-size: 40px !important;
   }
+  .overlap-wrapper {
+    width: 100% !important;
+    margin: 0 auto !important;
+    height: 100vh !important;
+    position: relative !important;
+  }
+  .bg-body {
+    background-image: src("./img/bg-body(1).png") !important;
+  }
+  .text-wrapper {
+    top: 3040px !important;
+  }
+}
+@media (max-width: 940px) {
+  .text-wrapper {
+    top: 4140px !important;
+  }
+}
+@media (max-width: 635px) {
+  .text-wrapper {
+    top: 7800px !important;
+  }
+}
+@media (max-width: 585px) {
+  .FIND-BEST-EVENTS {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 400px) {
+  .FIND-BEST-EVENTS {
+    font-size: 20px !important;
+  }
 }
 html, body {
   margin: 0;
@@ -21,11 +53,11 @@ html, body {
 .element-home .overlap-wrapper {
   width: 1280px;
   margin: 0 auto;
-  height: 2376px;
+  height: 100vh;
   position: relative;
 }
 .element-home .overlap {
-  height: 100%;
+  height: 100vh;
   position: relative;
 }
 .element-home .bg-body,
@@ -610,7 +642,7 @@ html, body {
   justify-content: center;
   gap: 56px;
   margin-top: 387px;
-  margin-right: -65px;
+  margin-left: 65px;
 }
 .events-grid .event {
   width: 196px;

@@ -2,5 +2,36 @@
     .FIND-BEST-EVENTS{
         font-size: 40px !important;
     }
-    
+     .overlap-wrapper {
+        width: 100% !important;
+        margin: 0 auto !important;
+        height: 100vh !important;
+        position: relative !important;
+    }
+    .bg-body{
+        background-image: src('./img/bg-body(1).png') !important;
+    }
+    .text-wrapper {
+        top: 3040px !important;
+    }
+}
+@media(max-width: 940px){
+    .text-wrapper {
+        top: 4140px !important;
+    }
+}
+@media(max-width: 635px){
+    .text-wrapper {
+        top: 7800px !important;
+    }
+}
+@media(max-width: 585px){
+    .FIND-BEST-EVENTS{
+        font-size: 30px !important;
+    }
+}
+@media(max-width: 400px){
+    .FIND-BEST-EVENTS{
+        font-size: 20px !important;
+    }
 }

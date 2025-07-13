@@ -46,7 +46,6 @@ function renderEvents(events) {
   });
 }
 
-
 function renderPagination(totalPages) {
   paginationEl.innerHTML = '';
   const maxVisible = 5;
@@ -115,7 +114,7 @@ function showModal(data) {
   buy1.href = data.url;
   buy2.href = data.url;
   author.href = data.url;
-  
+
   [infoEl, dateEl, whereEl, whoEl].forEach(el => {
     el.style.fontFamily = 'Montserrat';
     el.style.fontSize = '16px';
