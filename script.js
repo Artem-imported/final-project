@@ -151,7 +151,7 @@ async function update() {
 
 update();
 
-//
+
 
 async function update() {
   const events = await fetchEvents(currentPage);
@@ -160,7 +160,7 @@ async function update() {
   renderPagination(20);
   populateVenueSelect(events);
 }
-
+//
 function populateVenueSelect(events) {
   const select = document.getElementById('country');
   const venues = [...new Set(events.map(ev => ev._embedded?.venues?.[0]?.name).filter(Boolean))];
@@ -173,6 +173,8 @@ function populateVenueSelect(events) {
     select.appendChild(option);
   });
 }
+//
+
 
 document.getElementById('country').addEventListener('change', e => {
   const selected = e.target.value;
